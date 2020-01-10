@@ -1,26 +1,128 @@
-body {
-    font-family: 'Rubik', sans-serif, 'Roboto',sans-serif, Helvetica, Arial, sans-serif;
-}
- {
 
+html, body {
+    font-family: 'Rubik', sans-serif, 'Roboto',sans-serif, Helvetica, Arial, sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 20px;
+}
+
+.navItem {
+    font-weight: 600;
+    font-size: 20px;
+    color: #23374d;
+    background-color: transparent;
+    transition: all .5s ease 0s;
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #1089ff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 15px;
+    margin 0;
+}
+
+.logo {
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: auto;
+    width: 40px;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navItem:hover {
+    color: black;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+main #about {
+    text-align: center;
+    padding: 150px 150px ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+.name, .bio{
+    text-align: center;
+}
+
+.bio {
+    padding: 20px 0;
+    width: 80%;
+}
+
+.fab {
+    font-size: 30px;
+    color: #1089ff;
+    padding: 15px;
+}
+
+.fab:hover {
+    color: #23374d;
+}
+
+.socialMedia {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.socialMedia li>a {
+    text-decoration: none;
+    margin: 0;
+    padding: 15px 15px;
 }
 
 h1 {
-    text-transform: uppercase;
+    font-size: 100px;
+    margin: 10px;
 }
 
 h2 {
-    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
 }
 
 h3 {
-    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
 }
 
 h4 {
-    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
 }
 
-h5 {
-    text-transform: uppercase;
+.contrast {
+    color: #1089ff;
+}
+
+a {
+    text-decoration: none;
 }

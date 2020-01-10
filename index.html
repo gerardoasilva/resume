@@ -2,48 +2,73 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ee013fee7d.js"></script>
+
     <meta charset="UTF-8">
     <title>Gerardo Silva</title>
 </head>
 <body>
-    <nav>
-        <h4>Gerardo Silva</h4>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Awards</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h1>Gerardo <span class="contrast">Silva</span></h1>
-        <h5>Computer Science Student • Tecnológico de Monterrey • <span class="contrast">gsilva.razo@gmail.com</span></h5>
-    
-        <p>Software engineer in the making, always looking for new opportunities. Experienced working with agile methodologies and creative collaboration. Web development, video games and mobile applications are some of my main interests.</p>
-
-        <ul>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-        </ul>
-    </section>
+    <header>
+        <img class="logo" src="./css/img/logo.png" alt="GS logo">
+        <nav class="flex-container">
+            <ul class="navLinks">
+                <li><a class="navItem" href="#about">About</a></li>
+                <li><a class="navItem" href="#experience">Experience</a class="navItem"></li class="navItem">
+                <li><a class="navItem" href="#education">Education</a></li>
+                <li><a class="navItem" href="#skills">Skills</a></li>
+                <li><a class="navItem" href="#awards">Awards</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="name">
+            <h1 class="title">Gerardo <span class="contrast">Silva</span></h1 class="title">
+            <h4 class="title">Computer Science Student • Tecnológico de Monterrey • <a href="mailto:GSILVA.RAZO@GMAIL.COM" class="contrast">gsilva.razo@gmail.com</a></h4 class="title">
+        </div>
+        <div class="bio">
+            <p>Software engineer in the making, always looking for new opportunities. Experienced working with agile methodologies and creative collaboration. Web development, video games and mobile applications are some of my main interests.</p>
+            <ul class="socialMedia">
+                <li>
+                    <a href="https://www.linkedin.com/in/gsilva-razo">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/gerardoasilva">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/gerardoasilva/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/gerardosilva99">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </main>
 
     <section id="experience">
-        <h2>Experience</h2>
+        <h2 class="title">Experience</h2 class="title">
         <div class="job">
             <table>
                 <thead>
                     <tr>
-                        <th><h3>Technical Support</h3></th>
+                        <th><h3 class="title">Technical Support</h3 class="title"></th>
                         <th id="date">September 2015 - Present</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><h4>4ti</h4></td>
+                        <td><h4 class="title">4ti</h4></td>
                     </tr>
                     <tr>
                         <td><p>Small business that offers video surveillance, GPS vehicle tracking, securityu alarms and other IT-related solutions.</p></td>
@@ -57,18 +82,18 @@
     </section>
 
     <section id="education">
-        <h2>Education</h2>
+        <h2 class="title">Education</h2>
         <div class="study">
             <table>
                 <thead>
                     <tr>
-                        <th><h3>Tecnológico de Monterrey</h3></th>
+                        <th><h3 class="title">Tecnológico de Monterrey</h3 class="title"></th>
                         <th id="date">August 2017 - December 2021</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><h4>Bachelor of Science</h4></td>
+                        <td><h4 class="title">Bachelor of Science</h4></td>
                     </tr>
                     <tr>
                         <td><p>Computer Science and Technology Engineering</p>
@@ -80,15 +105,15 @@
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
-        <h4>Programming Languages</h4>
+        <h2 class="title">Skills</h2>
+        <h3 class="title">Programming Languages</h3 class="title">
         <ul>
             <li>C++</li>
             <li>Java</li>
             <li>Javascript</li>
             <li>Swift</li>
         </ul>
-        <h4>Tools & Technologies</h4>
+        <h3 class="title">Tools & Technologies</h3>
         <ul>
             <li>NodeJS</li>
             <li>HTML5</li>
@@ -100,7 +125,7 @@
             <li>MySQL</li>
             <li>Git</li>
         </ul>
-        <h4>Spoken Languages</h4>
+        <h3 class="title">Spoken Languages</h3>
         <ul>
             <li><strong>Spanish</strong> - Native</li>
             <li>
@@ -119,7 +144,7 @@
     </section>
 
     <section id="awards">
-        <h2>Awards</h2>
+        <h2 class="title">Awards</h2>
         <ul>
             <li>1<sup>st</sup> Place - Tecnológico de Monterrey - Video Game Development Contest, 2019</li>
             <li>Completed the Web Development Bootcamp by Colt Steele - Udemy, 2019</li>
@@ -128,6 +153,10 @@
             <li>1<sup>st</sup> Place - Prepa Tec - Video Game Development Contest, 2016</li>
         </ul>
     </section>
+
+    <footer>
+        
+    </footer>
 
 </body>
 </html>
