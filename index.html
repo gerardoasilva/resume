@@ -6,10 +6,13 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rubik:400,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ee013fee7d.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <meta charset="UTF-8">
     <title>Gerardo Silva</title>
 </head>
+
+<!-- NavBar -->
 <body>
     <header>
         <img class="logo" src="./css/img/logo.png" alt="GS logo">
@@ -23,7 +26,9 @@
             </ul>
         </nav>
     </header>
-    <main class="container">
+
+    <!-- Landing page -->
+    <main class="landing">
         <div class="name">
             <h1 class="title">Gerardo <span class="contrast">Silva</span></h1 class="title">
             <h4 class="title">Computer Science Student • Tecnológico de Monterrey • <a href="mailto:GSILVA.RAZO@GMAIL.COM" class="contrast">gsilva.razo@gmail.com</a></h4 class="title">
@@ -53,109 +58,128 @@
                 </li>
             </ul>
         </div>
-        
     </main>
 
-    <section id="experience">
+    <!-- Experience section -->
+    <section id="experience" class="landing container">
         <h2 class="title">Experience</h2 class="title">
-        <div class="job">
-            <table>
-                <thead>
-                    <tr>
-                        <th><h3 class="title">Technical Support</h3 class="title"></th>
-                        <th id="date">September 2015 - Present</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><h4 class="title">4ti</h4></td>
-                    </tr>
-                    <tr>
-                        <td><p>Small business that offers video surveillance, GPS vehicle tracking, securityu alarms and other IT-related solutions.</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>Provide support to the clients and constantly monitor their CCTV systems and GPS trackers to ensure proper functioning. Investigate and support decision</p></td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="item">
+            <div class="role">
+                <h3 class="title">Technical Support</h3>
+                <span id="date" class="contrast">September 2015 - Present</span>
+            </div>
+            <div class="description">
+                <h4 class="title">4ti</h4>
+                <p>Small business that offers video surveillance, GPS vehicle tracking, securityu alarms and other IT-related solutions.</p>
+                <p>Provide support to the clients and constantly monitor their CCTV systems and GPS trackers to ensure proper functioning. Investigate and support decision</p>
+            </div>
+            
         </div>
     </section>
 
-    <section id="education">
+    <!-- Education section -->
+    <section id="education" class="landing container">
         <h2 class="title">Education</h2>
-        <div class="study">
-            <table>
-                <thead>
-                    <tr>
-                        <th><h3 class="title">Tecnológico de Monterrey</h3 class="title"></th>
-                        <th id="date">August 2017 - December 2021</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><h4 class="title">Bachelor of Science</h4></td>
-                    </tr>
-                    <tr>
-                        <td><p>Computer Science and Technology Engineering</p>
-                            <p>Cumulative GPA: 93/100</p></td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="item">
+            <div class="role">
+                <h3 class="title">Tecnológico de Monterrey</h3>
+                <span id="date" class="contrast">August 2017 - December 2021</span>
+            </div>
+            <div class="description">
+                <h4 class="title">Bachelor of Science</h4>
+                <p>Computer Science and Technology Engineering</p>
+                <p>Cumulative GPA: 93/100</p>
+            </div>
         </div>
     </section>
 
-    <section id="skills">
+    <!-- Skills section -->
+    <section id="skills" class="landing container">
         <h2 class="title">Skills</h2>
-        <h3 class="title">Programming Languages</h3 class="title">
-        <ul>
-            <li>C++</li>
-            <li>Java</li>
-            <li>Javascript</li>
-            <li>Swift</li>
-        </ul>
-        <h3 class="title">Tools & Technologies</h3>
-        <ul>
-            <li>NodeJS</li>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>Npm</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>Git</li>
-        </ul>
-        <h3 class="title">Spoken Languages</h3>
-        <ul>
-            <li><strong>Spanish</strong> - Native</li>
-            <li>
-                <strong>English</strong> - Advanced
-                <ul>
-                    <li>TOEFL: 602/677</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Italian</strong> - Intermediate
-                <ul>
-                    <li>PLIDA: B1</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
 
-    <section id="awards">
-        <h2 class="title">Awards</h2>
-        <ul>
-            <li>1<sup>st</sup> Place - Tecnológico de Monterrey - Video Game Development Contest, 2019</li>
-            <li>Completed the Web Development Bootcamp by Colt Steele - Udemy, 2019</li>
-            <li>1<sup>st</sup> Place - Tecnológico de Monterrey - Video Game Development Contest, 2017</li>
-            <li>Participated in Top Teen Programmer at ITESM, 2017</li>
-            <li>1<sup>st</sup> Place - Prepa Tec - Video Game Development Contest, 2016</li>
-        </ul>
-    </section>
-
-    <footer>
+        <div class="item">
+            <h3 class="title">Programming Languages</h3 class="title">
+                <ul class="list lista">
+                    <li><i class="devicon-cplusplus-plain dicon fab"></i></li>
+                    <li><i class="fab fa-java"></i></li>
+                    <li><i class="fab fa-js-square"></i></li>
+                    <li><i class="fab fa-swift"></i></li>
         
+            </ul>
+        </div>
+        
+        <div class="item">
+            <h3 class="title">Tools & Technologies</h3>
+            <ul class="list lista">
+                <li><i class="fab fa-node-js"></i></li>
+                <li><i class="devicon-html5-plain dicon fab"></i></li>
+                <li><i class="fab fa-css3-alt"></i></li>
+                <li><i class="devicon-bootstrap-plain dicon fab"></i></li>
+                <li><i class="fab fa-npm"></i></li>
+                <li><i class="devicon-express-original dicon fab"></i></li>
+                <li><i class="devicon-mongodb-plain dicon fab"></i></li>
+                <li><i class="devicon-mysql-plain dicon fab"></i></li>
+                <li><i class="devicon-git-plain dicon fab"></i></li>
+            </ul>
+        </div>
+       
+        <div class="item">
+        <h3 class="title">Spoken Languages</h3>
+        
+            <ul class="lista">
+                <li class="language"><strong>Spanish</strong> - Native</li>
+                <li class="language">
+                    <strong>English</strong> - Advanced
+                    <ul>
+                        <li>TOEFL: 602/677</li>
+                    </ul>
+                </li>
+                <li class="language">
+                    <strong>Italian</strong> - Intermediate
+                    <ul>
+                        <li>PLIDA: B1</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <!-- Awards section -->
+    <section id="awards" class="landing container">
+        <h2 class="title">Awards</h2>
+        <div class="item">
+            <ul class="lista nobullets">
+                <li class="award">
+                    <i class="fas fa-trophy"></i>
+                    1<sup>st</sup> Place - Tecnológico de Monterrey - Video Game Development Contest, 2019
+                </li>
+                <li class="award">
+                    <i class="fas fa-trophy"></i>
+                    Completed the Web Development Bootcamp by Colt Steele - Udemy, 2019
+                </li>
+                <li class="award">
+                    <i class="fas fa-trophy"></i>
+                    1<sup>st</sup> Place - Tecnológico de Monterrey - Video Game Development Contest, 2017
+                </li>
+                <li class="award">
+                    <i class="fas fa-trophy"></i>
+                    Participated in Top Teen Programmer at ITESM, 2017
+                </li>
+                <li class="award">
+                    <i class="fas fa-trophy"></i>
+                    1<sup>st</sup> Place - Prepa Tec - Video Game Development Contest, 2016
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <span>
+            <img class="logoFooter" src="./css/img/logo.png" alt="GS logo">   Created by Gerardo Silva
+        </span>
+        <address>Monterrey, Nuevo León, México</address>
     </footer>
 
 </body>

@@ -6,6 +6,7 @@ html, body {
     padding: 0;
     height: 100%;
     font-size: 20px;
+    color: #868e96;
 }
 
 .navItem {
@@ -49,6 +50,7 @@ header {
 
 .title {
     text-transform: uppercase;
+    color: #343a40;
 }
 
 main #about {
@@ -56,7 +58,7 @@ main #about {
     padding: 150px 150px ;
 }
 
-.container {
+.landing {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,8 +77,8 @@ main #about {
     width: 80%;
 }
 
-.fab {
-    font-size: 30px;
+.fab{
+    font-size: 50px;
     color: #1089ff;
     padding: 15px;
 }
@@ -125,4 +127,85 @@ h4 {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    min-height: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+#experience {
+    background-color: #eeeeee;
+    min-height: 50%;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+.role {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.description {
+    width: 70%;
+}
+
+.description>h4 {
+    color: #868e96;
+}
+
+#education {
+    min-height: 50%;
+}
+
+#skills {
+    min-height: 80%;
+    background-color: #eeeeee;
+    justify-content: space-between;
+    align-items: right;
+}
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.lista {
+    padding: 0;
+}
+
+.language, .award{
+    padding: 5px 0;
+}
+
+#awards {
+    min-height: 50%;
+}
+
+.fas {
+    color: #ffc107;
+}
+
+.nobullets {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    
+}
+
+.logoFooter {
+    width: 15px;
 }
